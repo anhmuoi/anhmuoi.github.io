@@ -1,6 +1,38 @@
 *{margin: 0; padding: 0;}
 
-.khoitt1:before {content: "";position: absolute;left: 0px;top: 0px;width: 50%;height: 100%;background: #e4555b;}
+a.nuthire.btn.btn-primary {
+    width: 180px;
+    border-radius: 0px;
+    background: black;
+    border-color: black;
+}
+
+.tt p {
+    font-size: 17px;
+    line-height: 26px;
+    margin: auto;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: white;
+    font-size: 58px;
+    font-family: segoe ui light;
+    text-transform: uppercase;
+    margin-bottom: 22px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 21%;
+    margin-bottom: 58px;
+}
+
+.tt {position: relative;z-index: 2;}
+
+.khoitt1:before {content: "";position: absolute;left: 0px;top: 0px;width: 50%;height: 100%;background: #e4555b;z-index: 1;}
 
 body ,html {
     width: 100%;
@@ -40,6 +72,15 @@ nav.navbar.navbar-light.bg-faded {
 @media (max-width:576px){
     * {}
 
+.tt h2 {
+    font-size: 33px;
+    margin-top: -31px;
+}
+
+.tt img {
+    margin-top: 204px;
+}
+
 a.nav-link {
     display: inline !important;
 }
@@ -50,8 +91,15 @@ li.nav-item {
 }
 
 ul.nav.navbar-nav.float-xs-right {
-    float: none !important;
+    /* float: none !important; */
     text-align: center;
+    background: white;
+    width: 153%;
+    margin: 0;
+    /* padding: 0; */
+    margin: 4px  -34px  6px 25px;
+    padding: 13px 19px 13px 126px;
+    border-top: solid 1px gray;
 }
 
 li.nav-item {
